@@ -1,0 +1,22 @@
+const itemNameMap = {
+    "TFT_Item_BFSword": "BF 대검",
+    "TFT_Item_ChainVest": "쇠사슬 조끼",
+    "TFT_Item_GiantsBelt": "거인의 허리띠",
+    "TFT_Item_NeedlesslyLargeRod": "쓸데없이 큰 지팡이",
+    "TFT_Item_NegatronCloak": "음전자 망토",
+    "TFT_Item_RecurveBow": "곡궁",
+    "TFT_Item_SparringGloves": "연습용 장갑",
+    "TFT_Item_TearOfTheGoddess": "여신의 눈물",
+
+    "TFT_Item_AdaptiveHelm": "",
+    "TFT_Item_AegisOfTheLegion": "",
+    "TFT_Item_": "",
+    "TFT_Item_": "",
+    "TFT_Item_": "",
+    "TFT_Item_": "",
+    "TFT_Item_": "",
+    "TFT_Item_": "",
+    "TFT_Item_": "",
+    "TFT_Item_": "",
+    "TFT_Item_": "",
+}
