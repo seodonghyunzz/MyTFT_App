@@ -2,6 +2,9 @@
 import { useState , useEffect } from "react"
 import { useRouter } from "next/navigation"
 import MatchCount from "./matchCount";
+import itemNameMap from "@/util/itemNameMap";
+import traitsNameMap from "@/util/traitsNameMap";
+import championNameMap from "@/util/championNameMap";
 export default function MatchData( { puuid } ) {
     const router = useRouter();
     const [matchData, setMatchData] = useState([]);
@@ -92,7 +95,7 @@ export default function MatchData( { puuid } ) {
                                             .sort((a, b) => b.style - a.style)
                                             .map((trait, idx) => (                                             
                                                 <div className={`traits_style style-${trait.style}`} key={idx}>
-                                                <img src={`/traits/${trait.name}.svg`} alt={trait.name} title={trait.name}></img>
+                                                <img src={`/traits/${trait.name}.svg`} alt={trait.name} title={traitsNameMap[trait.name]}></img>
                                                 </div>
                                             ))}
                                         </div>
@@ -108,19 +111,20 @@ export default function MatchData( { puuid } ) {
                                                     <div className={`champion_icon rarity-${champion.rarity}`} >                         
                                                         {
                                                         (champion.rarity === 7) ?
-                                                        <img src="/champion/T43X.jpg" alt="blank" title="T43X"/> 
+                                                        <img src="/champion/T43X.jpg" alt="blank" title={championNameMap["T43X"]}/> 
                                                         :(champion.rarity === 8) ?        
-                                                        <img src={`https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/patching/${champion.character_id.toLowerCase()}_teamplanner_splash_evolved.png`} alt={champion.character_id} title={champion.character_id}/> 
+                                                        <img src={`https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/patching/${champion.character_id.toLowerCase()}_teamplanner_splash_evolved.png`} alt={champion.character_id} title={championNameMap[champion.character_id]}/> 
                                                         : (champion.rarity === 9) ?
                                                         <img src="/champion/sion.png" alt="sion" title="사이온"/>
-                                                        :<img src={`https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/patching/${champion.character_id.toLowerCase()}_teamplanner_splash.png`} alt={champion.character_id} title={champion.character_id}/> 
+                                                        :<img src={`https://raw.communitydragon.org/latest/game/assets/ux/tft/championsplashes/patching/${champion.character_id.toLowerCase()}_teamplanner_splash.png`} alt={champion.character_id} title={championNameMap[champion.character_id]}/> 
                                                     }
+                                                    
                                                     </div>
                                                     <div className="champion_item">
                                                         {champion.itemNames
                                                             .filter((item) => item !== "TFT_Item_EmptyBag").
                                                             map((item, idx) => (
-                                                            <img key={idx} src={`/item/${item}.png`} alt={item} width={17} height={17} title={item}/>
+                                                            <img key={idx} src={`/item/${item}.png`} alt={item} width={17} height={17} title={itemNameMap[item]}/>
                                                         ))}
                                                     </div>
                                                 </div>

@@ -19,7 +19,7 @@ export default function ranktable( { Challenger_Data, Grandmaster_Data, Master_D
     const slicedRankingData = rankingData.slice(0,10);
     const calculateWinRate = (wins, losses) => {
         const totalGames = wins + losses;
-        return totalGames > 0 ? Math.round((wins / totalGames) * 100) : 0;
+        return totalGames > 0 ? (Math.round(wins/totalGames * 1000))/10 : 0;
     }
     const calculateTotalGames = (wins, losses) => {
         return wins + losses;
