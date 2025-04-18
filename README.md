@@ -28,8 +28,7 @@
 
 ## 🖼️ 데모
 
-![MyTFT Screenshot](public/example/screenshot.png)  
-(※ 실제 화면 예시 이미지를 여기에 삽입하면 좋아요!)
+
 
 ---
 
