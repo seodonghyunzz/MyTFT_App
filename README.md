@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MyTFT
 
-## Getting Started
+🎮 **전략적 팀 전투(TFT) 전적 검색 웹 애플리케이션**  
+라이엇 게임즈 API를 활용한 소환사 검색 및 전적 분석 서비스
 
-First, run the development server:
+---
+
+## 🔧 기술 스택
+
+- **Next.js** (App Router)
+- **React**
+- **Firebase** (즐겨찾기 저장)
+- **Tailwind CSS**
+- **Riot Games API**
+
+---
+
+## ✨ 주요 기능
+
+| 기능 | 설명 |
+|------|------|
+| 🔍 소환사 검색 | `플레이어명#태그` 형식으로 입력하여 전적 확인 |
+| 📊 전적 분석 | 최근 20게임의 챔피언, 아이템, 시너지 출력 |
+| ⭐ 즐겨찾기 | 자주 검색하는 유저를 저장하고 빠르게 접근 |
+| 🖼️ 커스터마이징 | TFT 시즌14의 챔피언/아이템 이미지 기반 시각화 |
+
+---
+
+## 🖼️ 데모
+
+![MyTFT Screenshot](public/example/screenshot.png)  
+(※ 실제 화면 예시 이미지를 여기에 삽입하면 좋아요!)
+
+---
+
+## 🚀 설치 및 실행 방법
 
 ```bash
+# 1. 레포지토리 클론
+git clone https://github.com/seodonghyunzz/MyTFT_App.git
+
+# 2. 디렉토리 이동
+cd MyTFT_App
+
+# 3. 패키지 설치
+npm install
+
+# 4. 개발 서버 실행
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
