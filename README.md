@@ -10,7 +10,7 @@
 - **Next.js** (App Router)
 - **React**
 - **Firebase** (즐겨찾기 저장)
-- **Tailwind CSS**
+- **CSS**
 - **Riot Games API**
 
 ---
