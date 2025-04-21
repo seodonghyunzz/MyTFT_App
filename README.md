@@ -30,7 +30,19 @@
 
 =======
 
----
+### 🔍 홈 화면
+![홈 화면](https://github.com/seodonghyunzz/MyTFT_App/blob/master/public/images/home.png?raw=true)
+
+### 🎯 소환사 검색 결과
+![검색 결과](https://github.com/seodonghyunzz/MyTFT_App/blob/master/public/images/search_result.png?raw=true)
+
+### ⭐ 즐겨찾기
+![즐겨찾기](https://github.com/seodonghyunzz/MyTFT_App/blob/master/public/images/favorites.png?raw=true)
+
+### 🕹️ 최근 전적
+![최근 전적](https://github.com/seodonghyunzz/MyTFT_App/blob/master/public/images/match.png?raw=true)
+
+
 
 ## 🚀 설치 및 실행 방법
 
