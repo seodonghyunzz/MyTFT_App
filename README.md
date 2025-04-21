@@ -10,11 +10,7 @@
 - **Next.js** (App Router)
 - **React**
 - **Firebase** (즐겨찾기 저장)
-<<<<<<< HEAD
-- **Tailwind CSS**
-=======
 - **CSS**
->>>>>>> fe39d15275970b797f2016894989232845083a87
 - **Riot Games API**
 
 ---
@@ -32,12 +28,7 @@
 
 ## 🖼️ 데모
 
-<<<<<<< HEAD
-![MyTFT Screenshot](public/example/screenshot.png)  
-(※ 실제 화면 예시 이미지를 여기에 삽입하면 좋아요!)
 =======
-
->>>>>>> fe39d15275970b797f2016894989232845083a87
 
 ---
 
@@ -56,7 +47,7 @@ npm install
 # 4. 개발 서버 실행
 npm run dev
 
-<<<<<<< HEAD
+
 =======
 
 🔐 환경 변수 (.env.local)
@@ -83,4 +74,3 @@ NEXT_PUBLIC_MEASUREMENTID= YOUR_FIREBASE_MEASUREMENTID
 @ durcjsay@gmail.com (gmail)
 @ seodonghyunzz (github)
 
->>>>>>> fe39d15275970b797f2016894989232845083a87
