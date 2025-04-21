@@ -151,7 +151,7 @@ const itemNameMap = {
     "TFT14_Item_SwiftEmblemItem":"속사포 상징",
     "TFT14_Item_TechieEmblemItem":"기술광 상징",
     "TFT14_Item_ThirstyEmblemItem":"다이나모 상징",
-    "TFT14_Item_VanguardEmblemItem":"선봉대 상징",
+    "TFT14_Item_GuardianEmblemItem":"선봉대 상징",
     "TFT14_Item_BallisTekEmblemItem":"폭발 봇 상징",
     "TFT14_Item_ImmortalEmblemItem":"황금황소 상징",
     "TFT14_Item_DarkWebEmblemItem":"동물특공대 상징",

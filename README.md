@@ -36,7 +36,7 @@
 ### 🎯 소환사 검색 결과
 ![검색 결과](https://github.com/seodonghyunzz/MyTFT_App/blob/master/public/images/search_result.png?raw=true)
 
-### ⭐ 즐겨찾기
+### ⭐ 즐겨찾기, 순위표
 ![즐겨찾기](https://github.com/seodonghyunzz/MyTFT_App/blob/master/public/images/favorites.png?raw=true)
 
 ### 🕹️ 최근 전적
