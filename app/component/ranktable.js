@@ -37,7 +37,7 @@ export default function ranktable( { Challenger_Data, Grandmaster_Data, Master_D
                         <th>닉네임</th>
                         <th>티어</th>
                         <th>LP</th>
-                        <th>전체 게임 수</th>
+                        <th>게임 수</th>
                         <th>Top 4</th>
                         <th>Top 4(%)</th>
                     </tr>
