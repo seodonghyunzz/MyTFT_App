@@ -10,7 +10,11 @@
 - **Next.js** (App Router)
 - **React**
 - **Firebase** (즐겨찾기 저장)
+<<<<<<< HEAD
 - **Tailwind CSS**
+=======
+- **CSS**
+>>>>>>> fe39d15275970b797f2016894989232845083a87
 - **Riot Games API**
 
 ---
@@ -28,8 +32,12 @@
 
 ## 🖼️ 데모
 
+<<<<<<< HEAD
 ![MyTFT Screenshot](public/example/screenshot.png)  
 (※ 실제 화면 예시 이미지를 여기에 삽입하면 좋아요!)
+=======
+
+>>>>>>> fe39d15275970b797f2016894989232845083a87
 
 ---
 
@@ -48,3 +56,31 @@ npm install
 # 4. 개발 서버 실행
 npm run dev
 
+<<<<<<< HEAD
+=======
+
+🔐 환경 변수 (.env.local)
+
+NEXT_PUBLIC_API_KEY= YOUR_RIOT_API_KEY
+NEXT_PUBLIC_FIREBASE_API_KEY= YOUR_FIREBASE_API_KEY
+NEXT_PUBLIC_AUTHDOMAIN= YOUR_FIREBASE_AUTHDOMAIN
+NEXT_PUBLIC_PROJECTID= YOUR_FIREBASE_PROJECTID
+NEXT_PUBLIC_STRORAGEBUCKET= YOUR_FIREBASE_STRORAGEBUCKET
+NEXT_PUBLIC_MESSAGINGSENDERID= YOUR_FIREBASE_MESSAGINGSENDERID
+NEXT_PUBLIC_APPID= YOUR_FIREBASE_APPID
+NEXT_PUBLIC_MEASUREMENTID= YOUR_FIREBASE_MEASUREMENTID
+
+🧠 참고 및 출처
+
+# Riot Games Developer Portal
+
+# TFT API Docs
+
+# 아이템/챔피언 이미지: CommunityDragon
+
+📮 Contact
+
+@ durcjsay@gmail.com (gmail)
+@ seodonghyunzz (github)
+
+>>>>>>> fe39d15275970b797f2016894989232845083a87
