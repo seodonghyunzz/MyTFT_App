@@ -30,17 +30,17 @@
 
 =======
 
-### 🔍 홈 화면
-![홈 화면](https://github.com/seodonghyunzz/MyTFT_App/tree/main/public/screenshots/home.PNG?raw=true)
+### 🔍 홈 화면  
+![홈 화면](https://raw.githubusercontent.com/seodonghyunzz/MyTFT_App/main/public/screenshots/home.PNG)
 
-### 🎯 소환사 검색 결과
-![검색 결과](https://github.com/seodonghyunzz/MyTFT_App/tree/main/public/screenshots/search_result.PNG?raw=true)
+### 🎯 소환사 검색 결과  
+![검색 결과](https://raw.githubusercontent.com/seodonghyunzz/MyTFT_App/main/public/screenshots/search_result.PNG)
 
-### ⭐ 즐겨찾기, 순위표
-![즐겨찾기](https://github.com/seodonghyunzz/MyTFT_App/tree/main/public/screenshots/favorites.PNG?raw=true)
+### ⭐ 즐겨찾기, 순위표  
+![즐겨찾기](https://raw.githubusercontent.com/seodonghyunzz/MyTFT_App/main/public/screenshots/favorites.PNG)
 
-### 🕹️ 최근 전적
-![최근 전적](https://github.com/seodonghyunzz/MyTFT_App/tree/main/public/screenshots/match.PNG?raw=true)
+### 🕹️ 최근 전적  
+![최근 전적](https://raw.githubusercontent.com/seodonghyunzz/MyTFT_App/main/public/screenshots/match.PNG)
 
 
 
